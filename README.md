@@ -37,6 +37,16 @@ python -m venv venv
 source venv/bin/activate
 ```
 
+open `webui-user.sh` and paste this at the bottom
+```
+export COMMANDLINE_ARGS="--xformers --share"
+export ACCELERATE="True"
+```
+
+### Set up venv
+
+Venv allows for persistent storage (we install stuff here so it is kept installed in venv).
+
 ```
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
 pip install xformers==0.0.23.post1 --index-url https://download.pytorch.org/whl/cu118
@@ -86,12 +96,6 @@ pip install lycoris_lora
 pip install dadaptation
 pip install pytorch-optimizer
 pip install came_pytorch
-```
-
-open `webui-user.sh` and paste this at the bottom
-```
-export COMMANDLINE_ARGS="--xformers --share"
-export ACCELERATE="True"
 ```
 
 ## Running
