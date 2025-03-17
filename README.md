@@ -121,7 +121,7 @@ pip install came_pytorch
 
 Finally, stop the machine.
 
-## Running
+## Launching the web UI
 
 1. Start with machine "Free-A4000"
 2. Open `launcher.ipynb` and press "RUN ALL"; wait for it to finish
@@ -132,3 +132,6 @@ source venv/bin/activate
 ./webui.sh
 ```
 The command line will eventually output `Running on public URL:` followed by a url. Click that, it will bring you to the web UI.
+
+>[!TIP]
+>This last "Running" section is reproduced inside launcher.ipynb, so you don't need to come back to this repo if you forget how to run the program.
