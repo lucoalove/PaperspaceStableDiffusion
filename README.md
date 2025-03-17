@@ -1,6 +1,6 @@
 # Stable Diffusion (reForge) with Paperspace
 
-This is an installation guide for dummies using Paperspace $8 tier. It installs the (reForge)[https://github.com/Panchovix/stable-diffusion-webui-reForge] web UI, allowing you to generate images.
+This is an installation guide for dummies using Paperspace $8 tier. It installs the [reForge](https://github.com/Panchovix/stable-diffusion-webui-reForge) web UI, allowing you to generate images.
 
 It only uses the models I gave it (I think you need to change the launcher to change that) but idc this is for my purposes, cry
 
@@ -14,7 +14,7 @@ view advanced options, we will change the container to have python 3.10.10, put 
 
 ## Installation
 
-download (launcher.ipynb)[https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb] and put it in the files
+download [launcher.ipynb](https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb) and put it in the files
 
 ```
 git clone https://github.com/Panchovix/stable-diffusion-webui-reForge.git
