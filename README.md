@@ -106,7 +106,7 @@ you might wanna exit the terminal idk
 2. Open `launcher.ipynb` and press "RUN ALL"; wait for it to finish
 3. Open a command prompt and run:
 ```
-cd /notebooks/PaperspaceStableDiffusion/stable-diffusion-webui-reForge
+cd /notebooks/stable-diffusion-webui-reForge
 source venv/bin/activate
 ./webui.sh
 ```
