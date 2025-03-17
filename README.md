@@ -8,7 +8,7 @@ shoutout to **Shalie** for telling me how tf to do this <3
 
 ## Prerequisites
 
-create notebook (start from scratch)
+create notebook, select start from scratch
 
 select "Free-A4000"
 
@@ -18,7 +18,7 @@ view advanced options, we will change the container to have python 3.10.10, put 
 
 ## Installation
 
-If it isn't already started, start your notebook with machine "Free-A4000."
+If it isn't already, start your notebook with machine "Free-A4000."
 
 ### Download stuff
 
@@ -41,7 +41,7 @@ Your branch is up to date with 'origin/main'.
 Refresh the file explorer. Rename `stable-diffusion-webui-reForge` to `stable-diffusion-webui`.
 
 > [!CAUTION]
-> The program relies on the folder being named as above. Make sure it's correct!
+> `launcher.ipynb` relies on the folder being named `stable-diffusion-webui` *exactly*. Make sure it's correct!
 
 ### Configure stuff
 
