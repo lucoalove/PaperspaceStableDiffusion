@@ -134,4 +134,4 @@ source venv/bin/activate
 The command line will eventually output `Running on public URL:` followed by a url. Click that, it will bring you to the web UI.
 
 >[!TIP]
->This final section is reproduced inside launcher.ipynb, so you don't need to come back to this repo if you forget how to run the program.
+>This final section is reproduced inside `launcher.ipynb`, so you don't need to come back to this repo if you forget how to run the program.
