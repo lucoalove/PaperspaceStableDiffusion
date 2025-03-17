@@ -29,7 +29,13 @@ Open a terminal and run:
 ```
 git clone https://github.com/Panchovix/stable-diffusion-webui-reForge.git
 cd stable-diffusion-webui-reForge
-git checkout main
+```
+
+If all was installed properly, running `git checkout main` should give the following output:
+
+```
+Already on 'main'
+Your branch is up to date with 'origin/main'.
 ```
 
 Refresh the file explorer. Rename `stable-diffusion-webui-reForge` to `stable-diffusion-webui`.
