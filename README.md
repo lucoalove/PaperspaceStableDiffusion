@@ -26,11 +26,14 @@ cd stable-diffusion-webui-reForge
 git checkout main
 ```
 
+Refresh the file explorer. Rename `stable-diffusion-webui-reForge` to `stable-diffusion-webui`.
+
+> [!CAUTION]
+> The program relies on the folder being named as above. Make sure it's correct!
+
 ### Configure stuff
 
-Refresh the file explorer.
-
-Open `/stable-diffusion-webui-reForge/webui.sh`
+Open `/stable-diffusion-webui/webui.sh`
 
 CTRL+F "root"
 
@@ -112,7 +115,7 @@ Finally, stop the machine.
 2. Open `launcher.ipynb` and press "RUN ALL"; wait for it to finish
 3. Open a command prompt and run:
 ```
-cd /notebooks/stable-diffusion-webui-reForge
+cd /notebooks/stable-diffusion-webui
 source venv/bin/activate
 ./webui.sh
 ```
