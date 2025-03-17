@@ -2,9 +2,13 @@
 
 This is an installation guide for dummies using Paperspace $8 tier. It installs the (reForge)[https://github.com/Panchovix/stable-diffusion-webui-reForge] web UI, allowing you to generate images.
 
-It only uses the models I gave it (I think you need to change the file thing to change that) but idc this is for my purposes, cry
+It only uses the models I gave it (I think you need to change the launcher to change that) but idc this is for my purposes, cry
 
 shoutout to **Shalie** for telling me how tf to do this <3
+
+## Prerequisites
+
+paperspace
 
 ## Installation
 
@@ -91,3 +95,12 @@ export ACCELERATE="True"
 ```
 
 ## Running
+
+1. Start with machine "Free-A4000"
+2. Open `launcher.ipynb` and press "RUN ALL"; wait for it to finish
+3. Open a command prompt and run:
+```
+cd /notebooks/PaperspaceStableDiffusion/stable-diffusion-webui-reForge
+source venv/bin/activate
+./webui.sh
+```
