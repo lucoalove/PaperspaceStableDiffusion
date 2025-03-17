@@ -16,6 +16,8 @@ view advanced options, we will change the container to have python 3.10.10, put 
 
 If it isn't already started, start your notebook with machine "Free-A4000."
 
+### Download stuff
+
 download [launcher.ipynb](https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb) and put it in the files
 
 ```
@@ -23,6 +25,8 @@ git clone https://github.com/Panchovix/stable-diffusion-webui-reForge.git
 cd stable-diffusion-webui-reForge
 git checkout main
 ```
+
+### Configure stuff
 
 Refresh the file explorer.
 
@@ -100,7 +104,7 @@ pip install pytorch-optimizer
 pip install came_pytorch
 ```
 
-you might wanna exit the terminal idk
+Finally, stop the machine.
 
 ## Running
 
