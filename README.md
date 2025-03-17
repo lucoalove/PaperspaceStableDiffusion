@@ -14,9 +14,7 @@ view advanced options, we will change the container to have python 3.10.10, put 
 
 ## Installation
 
-```
-git clone https://github.com/lucoalove/PaperspaceStableDiffusion
-```
+download (launcher.ipynb)[https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb] and put it in the files
 
 ```
 git clone https://github.com/Panchovix/stable-diffusion-webui-reForge.git
@@ -34,12 +32,7 @@ Replace line `can_run_as_root=0` with `can_run_as_root=1`
 
 Save the file
 
-```
-python -m venv venv
-source venv/bin/activate
-```
-
-open `webui-user.sh` and paste this at the bottom
+open `webui-user.sh` and paste this at the bottom and Save the file
 ```
 export COMMANDLINE_ARGS="--xformers --share"
 export ACCELERATE="True"
@@ -48,6 +41,11 @@ export ACCELERATE="True"
 ### Set up venv
 
 Venv allows for persistent storage (we install stuff here so it is kept installed in venv).
+
+```
+python -m venv venv
+source venv/bin/activate
+```
 
 ```
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
@@ -99,6 +97,8 @@ pip install dadaptation
 pip install pytorch-optimizer
 pip install came_pytorch
 ```
+
+you might wanna exit the terminal idk
 
 ## Running
 
