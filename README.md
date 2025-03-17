@@ -8,7 +8,9 @@ shoutout to **Shalie** for telling me how tf to do this <3
 
 ## Prerequisites
 
-paperspace
+create notebook (from scratch) auto shutdown always on 6h and select free a4000
+
+view advanced options, we will change the container to have python 3.10.10, put `cyberes/gradient-base-py3.10:latest` as container name then create
 
 ## Installation
 
