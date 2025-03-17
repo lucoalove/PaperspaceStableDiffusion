@@ -22,7 +22,9 @@ If it isn't already started, start your notebook with machine "Free-A4000."
 
 ### Download stuff
 
-download [launcher.ipynb](https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb) and put it in the files
+Download [launcher.ipynb](https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb) and put it in the files.
+
+Open a terminal and run:
 
 ```
 git clone https://github.com/Panchovix/stable-diffusion-webui-reForge.git
