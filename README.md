@@ -8,7 +8,11 @@ shoutout to **Shalie** for telling me how tf to do this <3
 
 ## Prerequisites
 
-create notebook (from scratch) auto shutdown always on 6h and select free a4000
+create notebook (start from scratch)
+
+select "Free-A4000"
+
+auto shutdown always on 6h
 
 view advanced options, we will change the container to have python 3.10.10, put `cyberes/gradient-base-py3.10:latest` as container name then create
 
