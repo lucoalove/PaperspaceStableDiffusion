@@ -14,6 +14,8 @@ view advanced options, we will change the container to have python 3.10.10, put 
 
 ## Installation
 
+If it isn't already started, start your notebook with machine "Free-A4000."
+
 download [launcher.ipynb](https://github.com/lucoalove/PaperspaceStableDiffusion/blob/master/launcher.ipynb) and put it in the files
 
 ```
@@ -110,3 +112,4 @@ cd /notebooks/stable-diffusion-webui-reForge
 source venv/bin/activate
 ./webui.sh
 ```
+The command line will eventually output `Running on public URL:` followed by a url. Click that, it will bring you to the web UI.
